@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container col-md-11">
+        <div class="row mb-3"><!---row 1 start or header sectrion start-->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="index.html"><b><h3>Desai Trader's </h3></b></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Logout</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="Register.html">Register</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="login.html">Login</a>
+                      </li>
+                      <!--<li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                      </li>-->
+                    </ul>
+                    <form class="d-flex">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </div><!--row 1 end header section end-->
+
+        <div class="row bg-light p-3"><!--2nd row start or main section start-->
+          <div class="col-md-3"><!--side bar section start-->
+            <h4>filters By Category</h4><hr>
+            <a href="#">All</a><br>
+            <a href="#">Plates</a><br>
+            <a href="#">Glasses</a><br>
+            <a href="#">Container</a><br><br>
+
+            <h5>Sort By Price</h5><hr>
+            <a href="#">High to Low</a><br>
+            <a href="#">Low to High</a><br><br>
+
+            <h5>Filter By Price</h5><hr>
+            <form action="#" method="get">
+              <div class="mb-1">
+                <label for="Input1" class="form-label">Min</label>
+                <input type="text" class="form-control" id="Input1">
+              </div>
+              <div class="mb-1">
+                <label for="Input2" class="form-label">Max</label>
+                <input type="text" class="form-control" id="Input2">
+              </div>
+              <div class="mb-1">
+                <input type="submit" value="Find" class="btn btn-danger">
+              </div>
+              
+            </form>
+          </div><!--side bar end-->
+          <div class="col-md-9"><!--product list section start-->
+            <div class="row">
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/711-B+hRoaL._SX679_.jpg" class="card-img-top" alt="...." height="250px">
+                  <div class="card-body">
+                    <h5 class="card-title">Paper Glasses 50pc</h5>
+                    <p class="text">SANWALSA (225 ml,Brown- Pack of 50-Piece), Paper Disposable Ripple Cup Eco-Friendly, Safe & Hygienic for Juice,Coffee,Tea,Home,Office,Party & Wedding Events</p>
+                    <p class="card-text">150 Rs</p>
+                    <a href="product detail.html" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 1-->
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/71RdAbAFM0L._SL1500_.jpg" class="card-img-top" alt="...." height="275px">
+                  <div class="card-body">
+                    <h5 class="card-title">Aluminium Silver Foil Container</h5>
+                    <p class="text">Aluminium Silver Foil Container 750 ml, Food Storage Disposable Containers with Lid for Kitchen Pack of 50</p>
+                    <p class="card-text">300 Rs</p>
+                    <a href="#" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 2-->
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/41HHWxOR8ML.jpg" class="card-img-top" alt="...." height="250px">
+                  <div class="card-body">
+                    <h5 class="card-title">Paper Containers</h5>
+                    <p class="text">Disposable Kraft Paper Boxes, Paper Containers for Restaurant Food takeaway, Storage, Party, Hotel takeout Parcel- Reusable Biodegradable (1000 ML, 50)</p>
+                    <p class="card-text">500 Rs</p>
+                    <a href="#" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 3-->
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/21UGlQDDBcL.jpg" class="card-img-top" alt="...." height="225px">
+                  <div class="card-body">
+                    <h5 class="card-title">Plastic Container</h5>
+                    <p class="text">Rectangular Containers with lid I Transparent Reusable Air Tight Box I Containers for Kitchen Storage Serving Food delivery Home, Outdoor, Travel ? Pack of 50 (250 ML, Plastic)</p>
+                    <p class="card-text">400 Rs</p>
+                    <a href="#" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 4-->
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/51WWCYQdw7L.jpg" class="card-img-top" alt="...." height="290px">
+                  <div class="card-body">
+                    <h5 class="card-title">Paper Plates</h5>
+                    <p class="text">SANWALSA 3 Compartment, Eco-Friendly Disposable Bagasse Plates, Pack of 25 - Off White</p>
+                    <p class="card-text">350 Rs</p>
+                    <a href="#" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 5-->
+
+              <div class="col-md-3">
+                <div class="card" style="width: 14rem;">
+                  <img src="static/images/61KnBReJyBL._SL1500_.jpg" class="card-img-top" alt="...." height="220px">
+                  <div class="card-body">
+                    <h5 class="card-title">Paper Plates</h5>
+                    <p class="text">SMS HYDROTECH Disposable Plates | 5 Compartment Plate Without Spoon, (Pack of 25) | Eco-Friendly Plates for Dinner, Biodegradable Plates, Use and Throw Plates (Brown)</p>
+                    <p class="card-text">500 Rs</p>
+                    <a href="#" class="btn btn-primary">See Detail</a>
+                  </div>
+                </div>
+              </div><!--product 6-->
+            </div>
+          </div><!--product list end-->
+
+        </div><!--2nd row end or main section end-->
+        <div class="row mt-3 bg-light p-3"><!--3rd row start footer section start-->
+          <div class="col-md-4">
+            <h5>Address</h5><hr>
+            24,1 <sup>st</sup> Floor,Opposite to Raj Hotel, <br>
+            Main Road, Laxmipuri, <br>
+            Kolhapur 416 002, <br>
+            Maharashtra <br>
+          </div>
+          <div class="col-md-4">
+           <h5> Quick Link </h5><hr>
+           <h4><a href="index html">Home</a></h4>
+           <h4><a href="#">About</a></h4>
+           <h4><a href="#">Contact</a></h4>
+          </div>
+          <div class="col-md-4">
+            <h4>Social media</h4><hr>
+            <h5><a href="#"><i class="bi bi-linkedin"></i></a> Linkdin</h5>
+            <h5><a href="#"><i class="bi bi-twitter"></i></a> Twitter</h5>
+            <h5><a href="#"><i class="bi bi-instagram"></i></a> Instagram</h5>
+            <h5><a href="#"><i class="bi bi-facebook"></i></a> Facebook</h5>
+          </div>
+        </div><!--3rd row end footer section end-->
+    </div>
+
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/popper.js"></script>
+    
+</body>
+</html>
